@@ -1,0 +1,16 @@
+{
+  "name": "wordle-solver",
+  "version": "1.0.0",
+  "description": "CLI Wordle solver with entropy-based suggestions",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/cli.ts",
+    "test": "vitest run",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.0",
+    "vitest": "^1.2.0"
+  }
+}
